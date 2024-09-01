@@ -12,11 +12,11 @@ import google.generativeai as genai
 import random
 
 
-accessKey = 'uUDsCYJoJ7BBxiwvFBY+iaF9gIzEvdRHQurrActpbOyXA9YRE8JzfQ=='
+accessKey = 'ACCESSKEYHERE'
 FORMAT = pyaudio.paInt16
 CHANNELS = 1
 filename = "recording.wav"
-folderpath = '/home/fabianmolina/VoiceAssistant/Gemini-AI-Voice-Assistant/'
+folderpath = 'YOURFOLDERPATHHERE'
 words = ""
 os.environ['GOOGLE_APPLICATION_CREDENTIALS']= folderpath + 'accessCreds.json'
 voiceName = 'en-US-Casual-K'
